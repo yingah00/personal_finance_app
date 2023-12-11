@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Personal Finance Manager</h1>
+        <form action="/echo_user_input" method="POST">
+            <label for="user_input">Enter your expense:</label>
+            <input name="user_input" id="user_input" type="text">
+            <input type="submit" value="Submit!">
+        </form>
+    </div>
+</body>
+</html>

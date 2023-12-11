@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+<link rel="stylesheet" type="text/css" href="style.css">
 
 from flask import Flask, request
 

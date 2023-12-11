@@ -112,6 +112,8 @@ def echo_input():
              <div class="result">
                  <p>{}</p>
              </div>
+             <br>
+             <a href="/" style="text-decoration: none;">Go Back</a>
          </div>
      </body>
      </html>
